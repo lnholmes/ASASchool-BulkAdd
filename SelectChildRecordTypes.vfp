@@ -14,7 +14,7 @@
             </tr>
             <tr>
                 <td width="250px" style="text-align:right">Attendance Records - End of Year&nbsp;&nbsp;</td>
-                <td width="60px"><apex:inputCheckbox/></td>
+                <td width="60px"><apex:inputCheckbox /></td>
                 <td width="60px"/>
                 <td width="60px"/>
                 <td width="182px" style="text-align:right">Test Scores - Mid-Year&nbsp;&nbsp;</td>
@@ -31,6 +31,10 @@
                 <td/>
             </tr>
         </table>
+        <br/><br/><br/>
+        <apex:pageBlockButtons>
+            <apex:commandButton action="Submit" value="Submit" />
+        </apex:pageBlockButtons>
     </apex:pageBlock>
 </apex:form>
 </apex:page>
