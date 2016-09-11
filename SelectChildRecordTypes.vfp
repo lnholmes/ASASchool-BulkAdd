@@ -1,0 +1,36 @@
+<apex:page showHeader="true" standardController="Account">
+<apex:form >
+    <apex:sectionHeader title="Add New Information for Students in {!Account.Name}"/>
+    <apex:pageBlock title="Select the record types you would like to add." >
+        <table width="80%">
+            <tr>
+                <td width="250px" style="text-align:right">Attendance Records - Mid-Year&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox /></td>
+                <td width="60px" style="text-align:right">Credits&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox /></td>
+                <td width="182px" style="text-align:right">Test Scores - Beginning of Year&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox /></td>
+                <td/>
+            </tr>
+            <tr>
+                <td width="250px" style="text-align:right">Attendance Records - End of Year&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox/></td>
+                <td width="60px"/>
+                <td width="60px"/>
+                <td width="182px" style="text-align:right">Test Scores - Mid-Year&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox /></td>
+                <td/>
+            </tr>
+            <tr>
+                <td width="250px"/>
+                <td width="60px"/>
+                <td width="60px"/>
+                <td width="60px"/>
+                <td width="182px" style="text-align:right">Test Scores - End of Year&nbsp;&nbsp;</td>
+                <td width="60px"><apex:inputCheckbox /></td>
+                <td/>
+            </tr>
+        </table>
+    </apex:pageBlock>
+</apex:form>
+</apex:page>
